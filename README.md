@@ -35,3 +35,7 @@
 ### UML图
 
 ![UML](./assetes/UML.jpg)
+
+### Gantt图
+
+![UML](./assetes/Gantt.jpg)
