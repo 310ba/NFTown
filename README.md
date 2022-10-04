@@ -38,4 +38,8 @@
 
 ### Gantt图
 
-![UML](./assetes/Gantt.jpg)
+![Gantt](./assetes/Gantt.jpg)
+
+### UML用例图
+
+![UMLyongli](./assetes/yonglitu.jpg)
