@@ -32,14 +32,20 @@
 方一舟|美工设计，作图|25%
 钟 晟|前端主体框架开发|25%
 
-### UML图
+## 软件功能分析
+
+### 流程图
 
 ![UML](./assetes/UML.jpg)
+
+### UML用例图
+
+![UMLyongli](./assetes/yonglitu.jpg)
+
+## 软件开发时间安排
 
 ### Gantt图
 
 ![Gantt](./assetes/Gantt.jpg)
 
-### UML用例图
 
-![UMLyongli](./assetes/yonglitu.jpg)
