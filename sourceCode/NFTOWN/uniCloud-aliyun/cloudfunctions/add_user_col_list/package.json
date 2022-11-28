@@ -1,0 +1,7 @@
+{
+  "name": "add_user_col_list",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

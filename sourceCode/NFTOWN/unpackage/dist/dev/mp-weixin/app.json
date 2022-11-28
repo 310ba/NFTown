@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/market/market",
+    "pages/add/add",
+    "pages/accont/accont",
+    "pages/mine/mine",
+    "pages/search/search",
+    "pages/upload/upload",
+    "pages/sale/sale"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#ff9900",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icons/home.png",
+        "selectedIconPath": "static/icons/home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/market/market",
+        "iconPath": "static/icons/market.png",
+        "selectedIconPath": "static/icons/market.png",
+        "text": "市场"
+      },
+      {
+        "pagePath": "pages/accont/accont",
+        "iconPath": "static/icons/accont.png",
+        "selectedIconPath": "static/icons/accont.png",
+        "text": "账户"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/icons/mine.png",
+        "selectedIconPath": "static/icons/mine.png",
+        "text": "我的"
+      }
+    ],
+    "midButton": {
+      "iconPath": "static/icons/add.png",
+      "text": "交易"
+    }
+  },
+  "usingComponents": {}
+}

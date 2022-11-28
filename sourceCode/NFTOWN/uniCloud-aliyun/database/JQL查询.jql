@@ -1,0 +1,4 @@
+db.collection("uni-id-users").doc("6357dc270a5aba0001eca6e3").field("collection_list").get();
+db.collection("uni-id-users").where({
+	_id:"6357dc270a5aba0001eca6e3"
+}).field("collection_list").get();

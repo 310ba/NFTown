@@ -1,0 +1,69 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"name": {
+			"bsonType": "string",
+			"trim": "both",
+			"minLength": 2,
+			"maxLength": 17
+		},
+		"nftPic":{
+			"description": "收藏品url",
+			"bsonType": "string"
+			//"format": "url"
+		},
+		"upper":{
+			"description": "创造者id",
+			"bsonType": "string",
+			"trim": "both",
+			"foreignKey": "uni_id_users._id"
+		},
+		"owner":{
+			"description": "拥有者id",
+			"bsonType": "string",
+			"trim": "both",
+			"foreignKey": "uni_id_users._id"
+		},
+		"pic_reg_time":{
+			"bsonType": "timestamp",
+			"title": "创建时间",
+			"forceDefaultValue": {
+			  "$env": "now"
+			}		
+		},
+		"starNum":{
+			"description": "收藏人数",
+			"bsonType": "int",
+			"defaultValue": 0
+		},
+		"price":{
+			"description": "价格",
+			"bsonType": "double",
+			"defaultValue": 0
+		},
+		"detail":{
+			"description": "简介",
+			"bsonType": "string"		
+		},
+		"span":{
+			"description": "衍生品",
+			"bsonType": "bool",
+			"defaultValue": true
+		},
+		"isSaling":{
+			"description": "在售",
+			"bsonType": "bool",
+			"defaultValue": false
+		}
+	}
+}
